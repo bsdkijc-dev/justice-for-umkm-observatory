@@ -3,7 +3,6 @@
 from __future__ import annotations
 
 import argparse
-import csv
 import json
 from pathlib import Path
 from typing import Dict, List
@@ -17,6 +16,7 @@ SCHEMA_MAP = {
     "ds05_umkm_economic_indicators.csv": "economic_indicator_schema.json",
     "ds06_legal_information_access.csv": "legal_access_schema.json",
     "ds07_umkm_dispute_survey.csv": "survey_schema.json",
+    "ds09_legal_information_register.csv": "legal_register_schema.json",
 }
 
 
@@ -25,12 +25,15 @@ def validate_csv_against_schema(csv_path: Path, schema_path: Path) -> List[str]:
     schema = json.loads(schema_path.read_text(encoding="utf-8"))
     errors: List[str] = []
     df = pd.read_csv(csv_path, dtype=object)
-    # Convert NaN to None for JSON schema nullability checks
     records = df.where(pd.notnull(df), None).to_dict(orient="records")
 
     float_fields = {
         k for k, v in schema.get("properties", {}).items()
         if "number" in (v.get("type") if isinstance(v.get("type"), list) else [v.get("type")])
+    }
+    int_fields = {
+        k for k, v in schema.get("properties", {}).items()
+        if "integer" in (v.get("type") if isinstance(v.get("type"), list) else [v.get("type")])
     }
 
     for idx, rec in enumerate(records, start=1):
@@ -38,6 +41,12 @@ def validate_csv_against_schema(csv_path: Path, schema_path: Path) -> List[str]:
             if rec.get(ff) is not None:
                 try:
                     rec[ff] = float(rec[ff])
+                except (TypeError, ValueError):
+                    pass
+        for inf in int_fields:
+            if rec.get(inf) is not None:
+                try:
+                    rec[inf] = int(float(rec[inf]))
                 except (TypeError, ValueError):
                     pass
         try:

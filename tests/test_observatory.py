@@ -5,10 +5,13 @@ from __future__ import annotations
 import csv
 import json
 from pathlib import Path
+import tempfile
 import unittest
 
 import pandas as pd
 
+from processing.ingest_ds01_judicial import normalize_judicial_record
+from processing.ingest_ds09_legal_register import build_ds09
 from processing.normalization import normalize_idr_numeric
 from processing.privacy_review import review_directory, scan_dataframe_for_pii
 from processing.taxonomy import classify_dispute_text, classify_enterprise_pp7_2021
@@ -26,7 +29,6 @@ class TestObservatoryPipeline(unittest.TestCase):
         self.assertEqual(classify_enterprise_pp7_2021(annual_sales_idr=1_500_000_000), "micro")
         self.assertEqual(classify_enterprise_pp7_2021(annual_sales_idr=10_000_000_000), "small")
         self.assertEqual(classify_enterprise_pp7_2021(annual_sales_idr=30_000_000_000), "medium")
-        # Never infer from absence of evidence
         self.assertEqual(classify_enterprise_pp7_2021(), "unknown")
 
     def test_dispute_taxonomy_and_unknown_preservation(self) -> None:
@@ -62,6 +64,10 @@ class TestObservatoryPipeline(unittest.TestCase):
         caught = scan_dataframe_for_pii(bad_df, "bad.csv")
         self.assertTrue(len(caught) >= 2)
 
+        # Floating-point proportions must not trigger 16-digit NIK false positives
+        float_df = pd.DataFrame([{"indicator_value": "0.03283082940837492"}])
+        self.assertEqual(scan_dataframe_for_pii(float_df, "ok.csv"), [])
+
     def test_twelve_notebooks_valid_json(self) -> None:
         nb_dir = ROOT / "analysis" / "notebooks"
         nbs = sorted(nb_dir.glob("*.ipynb"))
@@ -78,6 +84,26 @@ class TestObservatoryPipeline(unittest.TestCase):
         for row in rows:
             self.assertTrue(row["official_url"].startswith("https://"))
             self.assertTrue(bool(row["data_limitations"]))
+
+    def test_ds01_judicial_normalization_never_infers_size_from_title(self) -> None:
+        rec = normalize_judicial_record({
+            "case_number": "12/Pdt.G.S/2025/PN.Jkt.Pst",
+            "court_name": "Pengadilan Negeri Jakarta Pusat",
+            "court_level": "first_instance",
+            "summary_text": "Gugatan wanprestasi tagihan invoice CV Maju Bersama",
+            "source_url": "https://putusan3.mahkamahagung.go.id/direktori/putusan/sample.html",
+        }, idx=1)
+        self.assertEqual(rec["business_size"], "unknown")
+        self.assertIn("CAT-01", rec["dispute_category"])
+        self.assertEqual(len(rec["document_hash"]), 64)
+
+    def test_ds09_legal_register_build_and_validate(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            tmp_path = Path(tmp)
+            df = build_ds09(tmp_path)
+            self.assertGreaterEqual(len(df), 11)
+            errs = validate_directory(tmp_path, ROOT / "schemas")
+            self.assertEqual(errs["ds09_legal_information_register.csv"], [])
 
 
 if __name__ == "__main__":

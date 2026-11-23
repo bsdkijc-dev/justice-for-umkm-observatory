@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DS09 - Legal Information Register",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "legal_source_id", "regulation_number", "regulation_year",
+    "title", "legal_topic", "effective_date", "current_status",
+    "official_source", "source_url", "verification_status"
+  ],
+  "properties": {
+    "legal_source_id": {"type": "string", "minLength": 1},
+    "regulation_number": {"type": "string", "minLength": 1},
+    "regulation_year": {"type": "integer", "minimum": 1945, "maximum": 2035},
+    "title": {"type": "string", "minLength": 1},
+    "legal_topic": {"type": "string", "minLength": 1},
+    "effective_date": {"type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+    "current_status": {"type": "string", "enum": ["active", "amended", "repealed"]},
+    "official_source": {"type": "string", "minLength": 1},
+    "source_url": {"type": "string", "format": "uri"},
+    "verification_status": {"type": "string", "enum": ["verified", "provisional", "rejected"]}
+  }
+}
