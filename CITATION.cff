@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "Justice for UMKM Observatory"
+message: "If you use this research infrastructure, schemas, or validated public datasets, please cite this repository."
+type: software
+authors:
+  - family-names: Mustafa
+    given-names: Cecep
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+version: "1.0.0"
+date-released: "2026-11-23"
+license: MIT
+repository-code: "https://github.com/bsdkijc-dev/justice-for-umkm-observatory"
+keywords:
+  - access to justice
+  - UMKM
+  - Indonesia
+  - legal empirical research
+  - judicial policy
+  - small business resilience

@@ -1,0 +1,23 @@
+name: Validate Publication Readiness
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - "kaggle/**"
+      - "dashboard/**"
+      - "reports/**"
+
+jobs:
+  publication-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify required governance & publication files exist
+        run: |
+          test -f LICENSE
+          test -f CITATION.cff
+          test -f governance/publication-standard.md
+          test -f governance/privacy-policy.md
+          test -f kaggle/dataset-metadata.json
+          test -f dashboard/index.html

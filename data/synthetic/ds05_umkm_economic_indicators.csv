@@ -1,0 +1,25 @@
+economic_indicator_id,indicator_name,business_size,business_sector,province,district,reporting_period,indicator_value,unit,population,denominator,source,methodology,validation_status
+SYNTH-DS05-001,umkm_credit_npl_pct,all_umkm,Manufacturing,DKI Jakarta,Jakarta Pusat,2025,3.51,percent,synthetic_umkm_population,synthetic_total,synthetic_test_generator,synthetic_test,synthetic
+SYNTH-DS05-002,active_umkm_count,micro,Digital Services,Jawa Barat,Kota Bandung,2025,36.39,percent,synthetic_umkm_population,synthetic_total,synthetic_test_generator,synthetic_test,synthetic
+SYNTH-DS05-003,active_umkm_count,medium,Manufacturing,Jawa Tengah,Kota Semarang,2025,66.46,percent,synthetic_umkm_population,synthetic_total,synthetic_test_generator,synthetic_test,synthetic
+SYNTH-DS05-004,formal_nib_share_pct,all_umkm,Manufacturing,Jawa Timur,Kota Surabaya,2025,40.1,percent,synthetic_umkm_population,synthetic_total,synthetic_test_generator,synthetic_test,synthetic
+SYNTH-DS05-005,active_umkm_count,micro,Digital Services,DI Yogyakarta,Kabupaten Sleman,2025,79.94,percent,synthetic_umkm_population,synthetic_total,synthetic_test_generator,synthetic_test,synthetic
+SYNTH-DS05-006,formal_nib_share_pct,medium,Manufacturing,Sumatera Utara,Kota Medan,2025,48.16,percent,synthetic_umkm_population,synthetic_total,synthetic_test_generator,synthetic_test,synthetic
+SYNTH-DS05-007,formal_nib_share_pct,micro,Digital Services,Sulawesi Selatan,Kota Makassar,2025,7.6,percent,synthetic_umkm_population,synthetic_total,synthetic_test_generator,synthetic_test,synthetic
+SYNTH-DS05-008,active_umkm_count,small,Manufacturing,Bali,Kota Denpasar,2025,13.84,percent,synthetic_umkm_population,synthetic_total,synthetic_test_generator,synthetic_test,synthetic
+SYNTH-DS05-009,active_umkm_count,micro,Agriculture,DKI Jakarta,Jakarta Pusat,2025,21.64,percent,synthetic_umkm_population,synthetic_total,synthetic_test_generator,synthetic_test,synthetic
+SYNTH-DS05-010,umkm_credit_npl_pct,medium,Agriculture,Jawa Barat,Kota Bandung,2025,61.94,percent,synthetic_umkm_population,synthetic_total,synthetic_test_generator,synthetic_test,synthetic
+SYNTH-DS05-011,formal_nib_share_pct,medium,Retail Trade,Jawa Tengah,Kota Semarang,2025,88.07,percent,synthetic_umkm_population,synthetic_total,synthetic_test_generator,synthetic_test,synthetic
+SYNTH-DS05-012,umkm_credit_npl_pct,medium,Food & Beverage,Jawa Timur,Kota Surabaya,2025,9.84,percent,synthetic_umkm_population,synthetic_total,synthetic_test_generator,synthetic_test,synthetic
+SYNTH-DS05-013,umkm_credit_npl_pct,all_umkm,Retail Trade,DI Yogyakarta,Kabupaten Sleman,2025,94.69,percent,synthetic_umkm_population,synthetic_total,synthetic_test_generator,synthetic_test,synthetic
+SYNTH-DS05-014,formal_nib_share_pct,all_umkm,Food & Beverage,Sumatera Utara,Kota Medan,2025,14.25,percent,synthetic_umkm_population,synthetic_total,synthetic_test_generator,synthetic_test,synthetic
+SYNTH-DS05-015,formal_nib_share_pct,micro,Digital Services,Sulawesi Selatan,Kota Makassar,2025,33.87,percent,synthetic_umkm_population,synthetic_total,synthetic_test_generator,synthetic_test,synthetic
+SYNTH-DS05-016,formal_nib_share_pct,micro,Food & Beverage,Bali,Kota Denpasar,2025,8.56,percent,synthetic_umkm_population,synthetic_total,synthetic_test_generator,synthetic_test,synthetic
+SYNTH-DS05-017,active_umkm_count,all_umkm,Agriculture,DKI Jakarta,Jakarta Pusat,2025,65.54,percent,synthetic_umkm_population,synthetic_total,synthetic_test_generator,synthetic_test,synthetic
+SYNTH-DS05-018,active_umkm_count,all_umkm,Retail Trade,Jawa Barat,Kota Bandung,2025,14.27,percent,synthetic_umkm_population,synthetic_total,synthetic_test_generator,synthetic_test,synthetic
+SYNTH-DS05-019,formal_nib_share_pct,medium,Food & Beverage,Jawa Tengah,Kota Semarang,2025,83.82,percent,synthetic_umkm_population,synthetic_total,synthetic_test_generator,synthetic_test,synthetic
+SYNTH-DS05-020,umkm_credit_npl_pct,medium,Retail Trade,Jawa Timur,Kota Surabaya,2025,23.44,percent,synthetic_umkm_population,synthetic_total,synthetic_test_generator,synthetic_test,synthetic
+SYNTH-DS05-021,umkm_credit_npl_pct,all_umkm,Digital Services,DI Yogyakarta,Kabupaten Sleman,2025,36.61,percent,synthetic_umkm_population,synthetic_total,synthetic_test_generator,synthetic_test,synthetic
+SYNTH-DS05-022,active_umkm_count,all_umkm,Retail Trade,Sumatera Utara,Kota Medan,2025,73.2,percent,synthetic_umkm_population,synthetic_total,synthetic_test_generator,synthetic_test,synthetic
+SYNTH-DS05-023,active_umkm_count,medium,Food & Beverage,Sulawesi Selatan,Kota Makassar,2025,48.05,percent,synthetic_umkm_population,synthetic_total,synthetic_test_generator,synthetic_test,synthetic
+SYNTH-DS05-024,umkm_credit_npl_pct,all_umkm,Digital Services,Bali,Kota Denpasar,2025,50.91,percent,synthetic_umkm_population,synthetic_total,synthetic_test_generator,synthetic_test,synthetic

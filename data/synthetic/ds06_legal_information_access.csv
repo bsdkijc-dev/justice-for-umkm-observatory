@@ -1,0 +1,17 @@
+access_id,information_type,provider,geographic_coverage,language,digital_channel,accessibility_features,last_verified,source,validation_status
+SYNTH-DS06-001,oss_licensing,OSS,National,Indonesian,mobile_web,plain_language;free_access,2026-11-23,https://umkm.go.id,synthetic
+SYNTH-DS06-002,contract_template,BPHN,National,Indonesian,web,plain_language;free_access,2026-11-23,https://umkm.go.id,synthetic
+SYNTH-DS06-003,oss_licensing,Kementerian UMKM,National,Indonesian,in_person,plain_language;free_access,2026-11-23,https://umkm.go.id,synthetic
+SYNTH-DS06-004,small_claims_guide,Mahkamah Agung,National,Indonesian,web,plain_language;free_access,2026-11-23,https://umkm.go.id,synthetic
+SYNTH-DS06-005,oss_licensing,Kementerian UMKM,National,Indonesian,in_person,plain_language;free_access,2026-11-23,https://umkm.go.id,synthetic
+SYNTH-DS06-006,small_claims_guide,Kementerian UMKM,National,Indonesian,in_person,plain_language;free_access,2026-11-23,https://umkm.go.id,synthetic
+SYNTH-DS06-007,legal_aid_directory,BPHN,National,Indonesian,in_person,plain_language;free_access,2026-11-23,https://umkm.go.id,synthetic
+SYNTH-DS06-008,legal_aid_directory,Kementerian UMKM,National,Indonesian,mobile_web,plain_language;free_access,2026-11-23,https://umkm.go.id,synthetic
+SYNTH-DS06-009,oss_licensing,Mahkamah Agung,National,Indonesian,web,plain_language;free_access,2026-11-23,https://umkm.go.id,synthetic
+SYNTH-DS06-010,oss_licensing,OSS,National,Indonesian,in_person,plain_language;free_access,2026-11-23,https://umkm.go.id,synthetic
+SYNTH-DS06-011,contract_template,Kementerian UMKM,National,Indonesian,in_person,plain_language;free_access,2026-11-23,https://umkm.go.id,synthetic
+SYNTH-DS06-012,small_claims_guide,Kementerian UMKM,National,Indonesian,web,plain_language;free_access,2026-11-23,https://umkm.go.id,synthetic
+SYNTH-DS06-013,legal_aid_directory,Mahkamah Agung,National,Indonesian,mobile_web,plain_language;free_access,2026-11-23,https://umkm.go.id,synthetic
+SYNTH-DS06-014,contract_template,Kementerian UMKM,National,Indonesian,in_person,plain_language;free_access,2026-11-23,https://umkm.go.id,synthetic
+SYNTH-DS06-015,oss_licensing,OSS,National,Indonesian,mobile_web,plain_language;free_access,2026-11-23,https://umkm.go.id,synthetic
+SYNTH-DS06-016,contract_template,Mahkamah Agung,National,Indonesian,web,plain_language;free_access,2026-11-23,https://umkm.go.id,synthetic

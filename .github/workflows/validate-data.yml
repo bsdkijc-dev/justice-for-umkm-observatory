@@ -1,0 +1,25 @@
+name: Validate Data & Privacy
+
+on:
+  push:
+    paths:
+      - "data/synthetic/**"
+      - "data/public/**"
+      - "schemas/**"
+      - "processing/**"
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: pip install pandas pyarrow jsonschema
+      - name: Validate synthetic schemas
+        run: PYTHONPATH=. python3 processing/validation.py --data-dir data/synthetic --schemas-dir schemas
+      - name: Run privacy & PII review
+        run: PYTHONPATH=. python3 processing/privacy_review.py --data-dir data/synthetic

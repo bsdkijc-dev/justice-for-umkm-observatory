@@ -1,0 +1,31 @@
+barrier_id,barrier_category,business_size,business_sector,geographic_area,barrier_description,evidence_type,source,reporting_period,validation_status
+SYNTH-DS02-001,complexity,medium,Retail Trade,urban,Synthetic barrier record for pipeline testing,synthetic,synthetic_test_generator,2025,synthetic
+SYNTH-DS02-002,cost,small,Retail Trade,urban,Synthetic barrier record for pipeline testing,synthetic,synthetic_test_generator,2025,synthetic
+SYNTH-DS02-003,distance,medium,Agriculture,urban,Synthetic barrier record for pipeline testing,synthetic,synthetic_test_generator,2025,synthetic
+SYNTH-DS02-004,trust,medium,Food & Beverage,urban,Synthetic barrier record for pipeline testing,synthetic,synthetic_test_generator,2025,synthetic
+SYNTH-DS02-005,distance,medium,Agriculture,urban,Synthetic barrier record for pipeline testing,synthetic,synthetic_test_generator,2025,synthetic
+SYNTH-DS02-006,complexity,medium,Food & Beverage,urban,Synthetic barrier record for pipeline testing,synthetic,synthetic_test_generator,2025,synthetic
+SYNTH-DS02-007,complexity,medium,Digital Services,rural,Synthetic barrier record for pipeline testing,synthetic,synthetic_test_generator,2025,synthetic
+SYNTH-DS02-008,trust,small,Manufacturing,urban,Synthetic barrier record for pipeline testing,synthetic,synthetic_test_generator,2025,synthetic
+SYNTH-DS02-009,complexity,micro,Manufacturing,urban,Synthetic barrier record for pipeline testing,synthetic,synthetic_test_generator,2025,synthetic
+SYNTH-DS02-010,trust,micro,Food & Beverage,urban,Synthetic barrier record for pipeline testing,synthetic,synthetic_test_generator,2025,synthetic
+SYNTH-DS02-011,distance,small,Manufacturing,rural,Synthetic barrier record for pipeline testing,synthetic,synthetic_test_generator,2025,synthetic
+SYNTH-DS02-012,cost,small,Agriculture,rural,Synthetic barrier record for pipeline testing,synthetic,synthetic_test_generator,2025,synthetic
+SYNTH-DS02-013,distance,medium,Food & Beverage,rural,Synthetic barrier record for pipeline testing,synthetic,synthetic_test_generator,2025,synthetic
+SYNTH-DS02-014,information,medium,Digital Services,urban,Synthetic barrier record for pipeline testing,synthetic,synthetic_test_generator,2025,synthetic
+SYNTH-DS02-015,cost,micro,Digital Services,urban,Synthetic barrier record for pipeline testing,synthetic,synthetic_test_generator,2025,synthetic
+SYNTH-DS02-016,distance,small,Food & Beverage,urban,Synthetic barrier record for pipeline testing,synthetic,synthetic_test_generator,2025,synthetic
+SYNTH-DS02-017,trust,small,Digital Services,urban,Synthetic barrier record for pipeline testing,synthetic,synthetic_test_generator,2025,synthetic
+SYNTH-DS02-018,information,micro,Retail Trade,urban,Synthetic barrier record for pipeline testing,synthetic,synthetic_test_generator,2025,synthetic
+SYNTH-DS02-019,complexity,small,Agriculture,urban,Synthetic barrier record for pipeline testing,synthetic,synthetic_test_generator,2025,synthetic
+SYNTH-DS02-020,cost,small,Manufacturing,urban,Synthetic barrier record for pipeline testing,synthetic,synthetic_test_generator,2025,synthetic
+SYNTH-DS02-021,distance,micro,Retail Trade,rural,Synthetic barrier record for pipeline testing,synthetic,synthetic_test_generator,2025,synthetic
+SYNTH-DS02-022,distance,micro,Manufacturing,urban,Synthetic barrier record for pipeline testing,synthetic,synthetic_test_generator,2025,synthetic
+SYNTH-DS02-023,information,micro,Retail Trade,urban,Synthetic barrier record for pipeline testing,synthetic,synthetic_test_generator,2025,synthetic
+SYNTH-DS02-024,information,micro,Retail Trade,rural,Synthetic barrier record for pipeline testing,synthetic,synthetic_test_generator,2025,synthetic
+SYNTH-DS02-025,cost,micro,Digital Services,urban,Synthetic barrier record for pipeline testing,synthetic,synthetic_test_generator,2025,synthetic
+SYNTH-DS02-026,complexity,micro,Digital Services,urban,Synthetic barrier record for pipeline testing,synthetic,synthetic_test_generator,2025,synthetic
+SYNTH-DS02-027,distance,micro,Retail Trade,urban,Synthetic barrier record for pipeline testing,synthetic,synthetic_test_generator,2025,synthetic
+SYNTH-DS02-028,information,micro,Agriculture,urban,Synthetic barrier record for pipeline testing,synthetic,synthetic_test_generator,2025,synthetic
+SYNTH-DS02-029,information,micro,Food & Beverage,rural,Synthetic barrier record for pipeline testing,synthetic,synthetic_test_generator,2025,synthetic
+SYNTH-DS02-030,distance,medium,Food & Beverage,rural,Synthetic barrier record for pipeline testing,synthetic,synthetic_test_generator,2025,synthetic

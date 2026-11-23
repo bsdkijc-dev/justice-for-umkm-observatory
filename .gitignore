@@ -1,0 +1,40 @@
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+
+# Data & Privacy Safeguards (NEVER commit raw, staging, or private data)
+data/raw/*
+!data/raw/.gitkeep
+data/staging/*
+!data/staging/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+*.sqlite
+*.db
+*.duckdb
+*.env
+.env*
+secrets/
+credentials/
+*pii*
+*private*
+*respondent_contact*
+*unapproved*
+
+# Logs & Cache
+logs/
+*.log
+.cache/
+tmp/
+.DS_Store
+Thumbs.db

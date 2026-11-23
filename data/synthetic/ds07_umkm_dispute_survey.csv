@@ -1,0 +1,101 @@
+respondent_code,business_size,business_sector,province,district,business_age_group,dispute_experience,dispute_category,resolution_channel,estimated_cost_band,estimated_duration_band,business_impact,outcome_category,consent_status,survey_date
+RESP-SYNTH-0001,small,Retail Trade,DKI Jakarta,Jakarta Pusat,3_to_5_years,yes,CAT-04,small_claims_court,1M_to_5M_IDR,1_to_3_months,minor_delay,judgment_enforced,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0002,small,Food & Beverage,Jawa Tengah,Kota Semarang,3_to_5_years,no,none,none,not_applicable,not_applicable,none,not_applicable,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0003,micro,Agriculture,Jawa Tengah,Kota Semarang,<1_year,yes,CAT-01,negotiation,1M_to_5M_IDR,1_to_3_months,temporary_halt,abandoned,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0004,micro,Retail Trade,Sumatera Utara,Kota Medan,3_to_5_years,yes,CAT-08,small_claims_court,5M_to_25M_IDR,>12_months,minor_delay,judgment_enforced,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0005,micro,Agriculture,DKI Jakarta,Jakarta Pusat,>10_years,yes,CAT-05,negotiation,1M_to_5M_IDR,1_to_3_months,temporary_halt,judgment_enforced,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0006,small,Food & Beverage,Jawa Timur,Kota Surabaya,3_to_5_years,yes,CAT-07,abandoned_unresolved,1M_to_5M_IDR,>12_months,minor_delay,abandoned,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0007,micro,Retail Trade,Jawa Tengah,Kota Semarang,5_to_10_years,yes,CAT-01,negotiation,5M_to_25M_IDR,3_to_6_months,minor_delay,judgment_enforced,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0008,micro,Manufacturing,Sumatera Utara,Kota Medan,>10_years,yes,CAT-05,mediation,<1M_IDR,>12_months,temporary_halt,settled_voluntarily,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0009,small,Agriculture,Sulawesi Selatan,Kota Makassar,>10_years,yes,CAT-03,negotiation,<1M_IDR,1_to_3_months,cash_flow_pressure,judgment_unenforced,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0010,small,Manufacturing,DI Yogyakarta,Kabupaten Sleman,3_to_5_years,yes,CAT-05,small_claims_court,<1M_IDR,1_to_3_months,minor_delay,judgment_enforced,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0011,micro,Digital Services,Bali,Kota Denpasar,>10_years,no,none,none,not_applicable,not_applicable,none,not_applicable,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0012,small,Food & Beverage,Bali,Kota Denpasar,>10_years,yes,CAT-01,abandoned_unresolved,<1M_IDR,1_to_3_months,cash_flow_pressure,judgment_enforced,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0013,micro,Retail Trade,Bali,Kota Denpasar,3_to_5_years,yes,CAT-04,mediation,5M_to_25M_IDR,<1_month,cash_flow_pressure,judgment_enforced,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0014,micro,Agriculture,Jawa Barat,Kota Bandung,3_to_5_years,yes,CAT-03,mediation,<1M_IDR,3_to_6_months,minor_delay,judgment_unenforced,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0015,micro,Food & Beverage,Jawa Barat,Kota Bandung,<1_year,no,none,none,not_applicable,not_applicable,none,not_applicable,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0016,micro,Food & Beverage,DKI Jakarta,Jakarta Pusat,>10_years,yes,CAT-01,mediation,1M_to_5M_IDR,3_to_6_months,temporary_halt,judgment_enforced,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0017,small,Digital Services,Jawa Barat,Kota Bandung,<1_year,no,none,none,not_applicable,not_applicable,none,not_applicable,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0018,micro,Agriculture,DI Yogyakarta,Kabupaten Sleman,1_to_3_years,yes,CAT-01,mediation,1M_to_5M_IDR,>12_months,minor_delay,judgment_unenforced,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0019,micro,Agriculture,Bali,Kota Denpasar,3_to_5_years,yes,CAT-07,abandoned_unresolved,5M_to_25M_IDR,3_to_6_months,temporary_halt,judgment_enforced,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0020,micro,Retail Trade,Jawa Timur,Kota Surabaya,1_to_3_years,no,none,none,not_applicable,not_applicable,none,not_applicable,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0021,small,Manufacturing,Jawa Timur,Kota Surabaya,>10_years,yes,CAT-08,negotiation,5M_to_25M_IDR,3_to_6_months,minor_delay,settled_voluntarily,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0022,micro,Manufacturing,DI Yogyakarta,Kabupaten Sleman,<1_year,yes,CAT-05,mediation,1M_to_5M_IDR,3_to_6_months,cash_flow_pressure,abandoned,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0023,small,Agriculture,DI Yogyakarta,Kabupaten Sleman,3_to_5_years,no,none,none,not_applicable,not_applicable,none,not_applicable,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0024,micro,Retail Trade,Jawa Tengah,Kota Semarang,>10_years,yes,CAT-08,small_claims_court,1M_to_5M_IDR,<1_month,temporary_halt,abandoned,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0025,micro,Manufacturing,Jawa Timur,Kota Surabaya,3_to_5_years,yes,CAT-01,small_claims_court,<1M_IDR,<1_month,minor_delay,settled_voluntarily,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0026,small,Manufacturing,Bali,Kota Denpasar,<1_year,yes,CAT-07,abandoned_unresolved,5M_to_25M_IDR,1_to_3_months,minor_delay,judgment_unenforced,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0027,micro,Digital Services,DI Yogyakarta,Kabupaten Sleman,1_to_3_years,yes,CAT-05,negotiation,5M_to_25M_IDR,<1_month,temporary_halt,judgment_unenforced,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0028,small,Manufacturing,Jawa Tengah,Kota Semarang,5_to_10_years,yes,CAT-06,negotiation,<1M_IDR,>12_months,cash_flow_pressure,judgment_unenforced,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0029,small,Digital Services,Jawa Tengah,Kota Semarang,5_to_10_years,yes,CAT-08,negotiation,<1M_IDR,>12_months,minor_delay,settled_voluntarily,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0030,micro,Digital Services,Jawa Barat,Kota Bandung,<1_year,yes,CAT-08,abandoned_unresolved,1M_to_5M_IDR,1_to_3_months,temporary_halt,judgment_unenforced,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0031,small,Agriculture,Sulawesi Selatan,Kota Makassar,1_to_3_years,yes,CAT-07,negotiation,5M_to_25M_IDR,>12_months,temporary_halt,judgment_unenforced,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0032,small,Food & Beverage,Jawa Barat,Kota Bandung,<1_year,yes,CAT-01,small_claims_court,<1M_IDR,3_to_6_months,minor_delay,judgment_enforced,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0033,micro,Manufacturing,Jawa Tengah,Kota Semarang,5_to_10_years,yes,CAT-02,mediation,1M_to_5M_IDR,3_to_6_months,cash_flow_pressure,judgment_unenforced,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0034,micro,Agriculture,Jawa Timur,Kota Surabaya,5_to_10_years,yes,CAT-01,abandoned_unresolved,<1M_IDR,1_to_3_months,minor_delay,judgment_enforced,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0035,medium,Agriculture,Jawa Timur,Kota Surabaya,3_to_5_years,no,none,none,not_applicable,not_applicable,none,not_applicable,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0036,micro,Agriculture,Sulawesi Selatan,Kota Makassar,5_to_10_years,yes,CAT-04,mediation,5M_to_25M_IDR,<1_month,cash_flow_pressure,abandoned,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0037,micro,Food & Beverage,Bali,Kota Denpasar,<1_year,no,none,none,not_applicable,not_applicable,none,not_applicable,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0038,small,Retail Trade,DI Yogyakarta,Kabupaten Sleman,5_to_10_years,yes,CAT-02,small_claims_court,5M_to_25M_IDR,1_to_3_months,temporary_halt,judgment_enforced,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0039,small,Retail Trade,Jawa Tengah,Kota Semarang,1_to_3_years,yes,CAT-02,negotiation,<1M_IDR,1_to_3_months,minor_delay,judgment_enforced,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0040,micro,Retail Trade,DI Yogyakarta,Kabupaten Sleman,1_to_3_years,yes,CAT-05,negotiation,<1M_IDR,1_to_3_months,temporary_halt,settled_voluntarily,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0041,micro,Retail Trade,DI Yogyakarta,Kabupaten Sleman,1_to_3_years,yes,CAT-01,negotiation,<1M_IDR,>12_months,cash_flow_pressure,settled_voluntarily,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0042,medium,Food & Beverage,Jawa Tengah,Kota Semarang,3_to_5_years,yes,CAT-05,abandoned_unresolved,<1M_IDR,1_to_3_months,temporary_halt,abandoned,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0043,small,Manufacturing,Jawa Timur,Kota Surabaya,<1_year,yes,CAT-01,negotiation,<1M_IDR,1_to_3_months,temporary_halt,settled_voluntarily,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0044,small,Agriculture,Jawa Timur,Kota Surabaya,1_to_3_years,yes,CAT-06,mediation,5M_to_25M_IDR,3_to_6_months,cash_flow_pressure,abandoned,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0045,small,Agriculture,Bali,Kota Denpasar,<1_year,yes,CAT-07,mediation,<1M_IDR,3_to_6_months,cash_flow_pressure,judgment_unenforced,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0046,small,Digital Services,Jawa Timur,Kota Surabaya,<1_year,no,none,none,not_applicable,not_applicable,none,not_applicable,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0047,micro,Retail Trade,Jawa Tengah,Kota Semarang,3_to_5_years,no,none,none,not_applicable,not_applicable,none,not_applicable,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0048,small,Digital Services,DKI Jakarta,Jakarta Pusat,1_to_3_years,yes,CAT-06,mediation,<1M_IDR,3_to_6_months,temporary_halt,judgment_unenforced,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0049,small,Manufacturing,DKI Jakarta,Jakarta Pusat,>10_years,no,none,none,not_applicable,not_applicable,none,not_applicable,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0050,micro,Manufacturing,Jawa Barat,Kota Bandung,<1_year,yes,CAT-08,small_claims_court,1M_to_5M_IDR,1_to_3_months,minor_delay,judgment_unenforced,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0051,medium,Manufacturing,Bali,Kota Denpasar,>10_years,yes,CAT-08,negotiation,5M_to_25M_IDR,3_to_6_months,minor_delay,abandoned,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0052,small,Food & Beverage,DKI Jakarta,Jakarta Pusat,3_to_5_years,yes,CAT-06,negotiation,<1M_IDR,1_to_3_months,temporary_halt,settled_voluntarily,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0053,small,Retail Trade,Sulawesi Selatan,Kota Makassar,5_to_10_years,yes,CAT-06,abandoned_unresolved,5M_to_25M_IDR,1_to_3_months,cash_flow_pressure,settled_voluntarily,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0054,small,Digital Services,DI Yogyakarta,Kabupaten Sleman,5_to_10_years,yes,CAT-06,mediation,1M_to_5M_IDR,<1_month,temporary_halt,abandoned,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0055,micro,Agriculture,Sumatera Utara,Kota Medan,3_to_5_years,yes,CAT-03,small_claims_court,<1M_IDR,3_to_6_months,temporary_halt,abandoned,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0056,micro,Digital Services,Bali,Kota Denpasar,<1_year,yes,CAT-05,small_claims_court,5M_to_25M_IDR,>12_months,cash_flow_pressure,judgment_unenforced,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0057,small,Digital Services,Sumatera Utara,Kota Medan,5_to_10_years,yes,CAT-05,abandoned_unresolved,1M_to_5M_IDR,3_to_6_months,cash_flow_pressure,abandoned,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0058,micro,Agriculture,DI Yogyakarta,Kabupaten Sleman,>10_years,no,none,none,not_applicable,not_applicable,none,not_applicable,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0059,micro,Digital Services,Bali,Kota Denpasar,3_to_5_years,yes,CAT-03,small_claims_court,<1M_IDR,1_to_3_months,cash_flow_pressure,judgment_enforced,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0060,medium,Food & Beverage,Jawa Timur,Kota Surabaya,3_to_5_years,no,none,none,not_applicable,not_applicable,none,not_applicable,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0061,micro,Food & Beverage,DI Yogyakarta,Kabupaten Sleman,<1_year,yes,CAT-06,negotiation,5M_to_25M_IDR,1_to_3_months,temporary_halt,judgment_enforced,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0062,micro,Retail Trade,Bali,Kota Denpasar,<1_year,yes,CAT-04,abandoned_unresolved,5M_to_25M_IDR,3_to_6_months,temporary_halt,judgment_unenforced,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0063,medium,Food & Beverage,DI Yogyakarta,Kabupaten Sleman,1_to_3_years,no,none,none,not_applicable,not_applicable,none,not_applicable,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0064,micro,Digital Services,DI Yogyakarta,Kabupaten Sleman,1_to_3_years,no,none,none,not_applicable,not_applicable,none,not_applicable,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0065,small,Food & Beverage,Sulawesi Selatan,Kota Makassar,5_to_10_years,yes,CAT-06,small_claims_court,<1M_IDR,>12_months,minor_delay,settled_voluntarily,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0066,micro,Retail Trade,Sumatera Utara,Kota Medan,5_to_10_years,yes,CAT-01,negotiation,5M_to_25M_IDR,3_to_6_months,temporary_halt,judgment_enforced,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0067,small,Digital Services,Jawa Barat,Kota Bandung,5_to_10_years,no,none,none,not_applicable,not_applicable,none,not_applicable,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0068,micro,Retail Trade,Sulawesi Selatan,Kota Makassar,>10_years,no,none,none,not_applicable,not_applicable,none,not_applicable,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0069,micro,Digital Services,DKI Jakarta,Jakarta Pusat,<1_year,yes,CAT-05,small_claims_court,1M_to_5M_IDR,>12_months,cash_flow_pressure,judgment_unenforced,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0070,micro,Food & Beverage,Jawa Tengah,Kota Semarang,3_to_5_years,yes,CAT-03,mediation,<1M_IDR,1_to_3_months,temporary_halt,judgment_enforced,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0071,small,Manufacturing,Sulawesi Selatan,Kota Makassar,1_to_3_years,yes,CAT-08,mediation,<1M_IDR,<1_month,temporary_halt,judgment_enforced,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0072,micro,Manufacturing,Jawa Barat,Kota Bandung,5_to_10_years,yes,CAT-02,negotiation,5M_to_25M_IDR,>12_months,cash_flow_pressure,judgment_enforced,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0073,micro,Retail Trade,Jawa Timur,Kota Surabaya,3_to_5_years,no,none,none,not_applicable,not_applicable,none,not_applicable,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0074,medium,Agriculture,DKI Jakarta,Jakarta Pusat,5_to_10_years,yes,CAT-01,small_claims_court,<1M_IDR,>12_months,cash_flow_pressure,settled_voluntarily,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0075,medium,Retail Trade,Jawa Tengah,Kota Semarang,3_to_5_years,yes,CAT-01,negotiation,5M_to_25M_IDR,<1_month,temporary_halt,settled_voluntarily,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0076,small,Manufacturing,DI Yogyakarta,Kabupaten Sleman,<1_year,no,none,none,not_applicable,not_applicable,none,not_applicable,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0077,micro,Manufacturing,Jawa Timur,Kota Surabaya,5_to_10_years,yes,CAT-04,mediation,<1M_IDR,<1_month,cash_flow_pressure,judgment_enforced,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0078,small,Digital Services,DKI Jakarta,Jakarta Pusat,<1_year,yes,CAT-01,small_claims_court,5M_to_25M_IDR,3_to_6_months,minor_delay,abandoned,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0079,medium,Retail Trade,DI Yogyakarta,Kabupaten Sleman,5_to_10_years,yes,CAT-02,mediation,<1M_IDR,>12_months,minor_delay,judgment_enforced,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0080,small,Agriculture,DKI Jakarta,Jakarta Pusat,1_to_3_years,yes,CAT-07,abandoned_unresolved,1M_to_5M_IDR,>12_months,minor_delay,abandoned,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0081,micro,Retail Trade,Bali,Kota Denpasar,1_to_3_years,no,none,none,not_applicable,not_applicable,none,not_applicable,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0082,small,Agriculture,Sumatera Utara,Kota Medan,5_to_10_years,yes,CAT-02,small_claims_court,5M_to_25M_IDR,1_to_3_months,temporary_halt,abandoned,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0083,micro,Food & Beverage,Sulawesi Selatan,Kota Makassar,<1_year,no,none,none,not_applicable,not_applicable,none,not_applicable,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0084,micro,Agriculture,Jawa Barat,Kota Bandung,5_to_10_years,yes,CAT-08,mediation,<1M_IDR,<1_month,temporary_halt,judgment_unenforced,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0085,micro,Manufacturing,DI Yogyakarta,Kabupaten Sleman,<1_year,yes,CAT-08,negotiation,<1M_IDR,<1_month,minor_delay,settled_voluntarily,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0086,micro,Food & Beverage,Sumatera Utara,Kota Medan,5_to_10_years,yes,CAT-03,mediation,<1M_IDR,1_to_3_months,minor_delay,settled_voluntarily,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0087,micro,Retail Trade,DKI Jakarta,Jakarta Pusat,5_to_10_years,yes,CAT-05,abandoned_unresolved,1M_to_5M_IDR,1_to_3_months,cash_flow_pressure,settled_voluntarily,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0088,micro,Agriculture,Jawa Timur,Kota Surabaya,5_to_10_years,yes,CAT-08,mediation,<1M_IDR,<1_month,minor_delay,judgment_enforced,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0089,micro,Food & Beverage,DKI Jakarta,Jakarta Pusat,3_to_5_years,no,none,none,not_applicable,not_applicable,none,not_applicable,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0090,micro,Agriculture,DI Yogyakarta,Kabupaten Sleman,<1_year,yes,CAT-06,small_claims_court,1M_to_5M_IDR,<1_month,temporary_halt,judgment_enforced,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0091,micro,Food & Beverage,DI Yogyakarta,Kabupaten Sleman,1_to_3_years,yes,CAT-07,mediation,5M_to_25M_IDR,>12_months,minor_delay,judgment_enforced,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0092,medium,Agriculture,Jawa Timur,Kota Surabaya,<1_year,no,none,none,not_applicable,not_applicable,none,not_applicable,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0093,micro,Retail Trade,Jawa Tengah,Kota Semarang,<1_year,yes,CAT-02,mediation,<1M_IDR,<1_month,temporary_halt,settled_voluntarily,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0094,small,Agriculture,DKI Jakarta,Jakarta Pusat,>10_years,yes,CAT-08,negotiation,<1M_IDR,1_to_3_months,minor_delay,abandoned,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0095,small,Agriculture,Jawa Tengah,Kota Semarang,>10_years,yes,CAT-04,small_claims_court,<1M_IDR,1_to_3_months,temporary_halt,judgment_enforced,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0096,small,Manufacturing,DI Yogyakarta,Kabupaten Sleman,1_to_3_years,yes,CAT-03,abandoned_unresolved,5M_to_25M_IDR,3_to_6_months,temporary_halt,settled_voluntarily,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0097,micro,Retail Trade,Jawa Timur,Kota Surabaya,5_to_10_years,yes,CAT-04,small_claims_court,1M_to_5M_IDR,>12_months,temporary_halt,judgment_unenforced,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0098,small,Retail Trade,Jawa Tengah,Kota Semarang,3_to_5_years,no,none,none,not_applicable,not_applicable,none,not_applicable,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0099,micro,Digital Services,Jawa Timur,Kota Surabaya,5_to_10_years,no,none,none,not_applicable,not_applicable,none,not_applicable,consented_public_aggregate,2026-11-23
+RESP-SYNTH-0100,medium,Retail Trade,Jawa Timur,Kota Surabaya,>10_years,yes,CAT-02,abandoned_unresolved,1M_to_5M_IDR,>12_months,minor_delay,abandoned,consented_public_aggregate,2026-11-23

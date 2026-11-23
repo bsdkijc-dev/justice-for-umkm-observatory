@@ -1,0 +1,11 @@
+{
+  "title": "Justice for UMKM Observatory Synthetic Pilot v1",
+  "id": "judicialcollege/justice-for-umkm-synthetic-pilot-v1",
+  "subtitle": "Synthetic test schemas and governance fixtures for Indonesian UMKM justice",
+  "description": "Foundation synthetic test datasets (DS01-DS10), JSON schemas, and data dictionary for the Justice for UMKM Observatory (v1.0) led by Cecep Mustafa, Ph.D. Strictly synthetic test data for pipeline validation; contains zero empirical findings or personal data. Human approval required prior to Kaggle upload.",
+  "licenses": [{"name": "MIT"}],
+  "keywords": ["access to justice", "indonesia", "umkm", "legal research", "synthetic data"],
+  "versionNumber": 1,
+  "updateDate": "2026-11-23",
+  "publicationStatus": "PENDING_HUMAN_APPROVAL"
+}

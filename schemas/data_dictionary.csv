@@ -1,0 +1,124 @@
+dataset_id,dataset_name,field_name,data_type,nullable,description
+DS01,UMKM Legal Dispute Metadata,record_id,string,false,Unique internal observatory record identifier
+DS01,UMKM Legal Dispute Metadata,case_number,string,false,Official court case registration number
+DS01,UMKM Legal Dispute Metadata,court_name,string,false,Formal court name
+DS01,UMKM Legal Dispute Metadata,court_level,string,false,Court tier (first_instance/appellate/cassation/commercial/administrative)
+DS01,UMKM Legal Dispute Metadata,decision_date,date,true,ISO decision date (YYYY-MM-DD)
+DS01,UMKM Legal Dispute Metadata,publication_date,date,true,ISO publication date in directory
+DS01,UMKM Legal Dispute Metadata,dispute_category,string,false,Primary/secondary taxonomy codes (CAT-01..CAT-08 or UNKNOWN)
+DS01,UMKM Legal Dispute Metadata,dispute_subcategory,string,true,Specific subcategory label
+DS01,UMKM Legal Dispute Metadata,claimant_type,string,false,Party role classification of claimant
+DS01,UMKM Legal Dispute Metadata,defendant_type,string,false,Party role classification of defendant
+DS01,UMKM Legal Dispute Metadata,business_size,string,false,PP 7/2021 classification (micro/small/medium/unknown)
+DS01,UMKM Legal Dispute Metadata,business_sector,string,true,KBLI or BPS sector label
+DS01,UMKM Legal Dispute Metadata,province,string,true,Indonesian province
+DS01,UMKM Legal Dispute Metadata,district,string,true,Kabupaten or Kota
+DS01,UMKM Legal Dispute Metadata,claim_type,string,true,Legal claim basis (wanprestasi/PMH/gugatan_sederhana/etc.)
+DS01,UMKM Legal Dispute Metadata,judgment_outcome,string,true,Dispositive outcome (granted/partially_granted/rejected/settled/etc.)
+DS01,UMKM Legal Dispute Metadata,remedy_type,string,true,Ordered legal or monetary remedy
+DS01,UMKM Legal Dispute Metadata,appeal_status,string,true,Appeal or objection status
+DS01,UMKM Legal Dispute Metadata,execution_status,string,true,Documented post-judgment compliance or execution status
+DS01,UMKM Legal Dispute Metadata,source_url,uri,false,Exact official source URL
+DS01,UMKM Legal Dispute Metadata,retrieval_date,date,false,ISO retrieval date
+DS01,UMKM Legal Dispute Metadata,document_hash,string,false,SHA-256 hash of retrieved source metadata/document
+DS01,UMKM Legal Dispute Metadata,extraction_confidence,float,false,Confidence score in [0.0 1.0]
+DS01,UMKM Legal Dispute Metadata,validation_status,string,false,verified/provisional/synthetic/rejected
+DS02,UMKM Legal Access Barriers,barrier_id,string,false,Unique barrier observation ID
+DS02,UMKM Legal Access Barriers,barrier_category,string,false,Barrier domain (cost/information/distance/complexity/trust)
+DS02,UMKM Legal Access Barriers,business_size,string,false,PP 7/2021 tier or unknown
+DS02,UMKM Legal Access Barriers,business_sector,string,true,Sector label
+DS02,UMKM Legal Access Barriers,geographic_area,string,false,Province/district or urban/rural classification
+DS02,UMKM Legal Access Barriers,barrier_description,string,false,Concise description of documented barrier
+DS02,UMKM Legal Access Barriers,evidence_type,string,false,survey/interview/administrative/literature
+DS02,UMKM Legal Access Barriers,source,string,false,Source citation or URL
+DS02,UMKM Legal Access Barriers,reporting_period,string,false,Observation year or range
+DS02,UMKM Legal Access Barriers,validation_status,string,false,verified/provisional/synthetic/rejected
+DS03,Dispute Resolution Costs,observation_id,string,false,Unique cost observation ID
+DS03,Dispute Resolution Costs,business_size,string,false,PP 7/2021 tier or unknown
+DS03,Dispute Resolution Costs,dispute_category,string,false,Taxonomy code CAT-01..CAT-08 or UNKNOWN
+DS03,Dispute Resolution Costs,resolution_channel,string,false,negotiation/mediation/administrative/arbitration/court
+DS03,Dispute Resolution Costs,direct_cost,number,true,Numeric direct cost (no currency symbols)
+DS03,Dispute Resolution Costs,indirect_cost,number,true,Numeric indirect/opportunity cost (no currency symbols)
+DS03,Dispute Resolution Costs,currency,string,false,ISO 4217 code (IDR)
+DS03,Dispute Resolution Costs,observation_period,string,false,Observation period
+DS03,Dispute Resolution Costs,methodology,string,false,Cost estimation methodology
+DS03,Dispute Resolution Costs,sample_size,integer,true,Sample size n
+DS03,Dispute Resolution Costs,source,string,false,Source reference
+DS03,Dispute Resolution Costs,validation_status,string,false,verified/provisional/synthetic/rejected
+DS04,Dispute Duration,observation_id,string,false,Unique duration observation ID
+DS04,Dispute Duration,dispute_category,string,false,Taxonomy code
+DS04,Dispute Duration,resolution_channel,string,false,Resolution channel
+DS04,Dispute Duration,start_date,date,true,ISO start date
+DS04,Dispute Duration,end_date,date,true,ISO end date
+DS04,Dispute Duration,duration_days,integer,true,Elapsed calendar days
+DS04,Dispute Duration,measurement_method,string,false,filing_to_judgment/dispute_start_to_settlement/etc.
+DS04,Dispute Duration,source,string,false,Source reference
+DS04,Dispute Duration,validation_status,string,false,verified/provisional/synthetic/rejected
+DS05,UMKM Economic Indicators,economic_indicator_id,string,false,Unique economic indicator ID
+DS05,UMKM Economic Indicators,indicator_name,string,false,Indicator name
+DS05,UMKM Economic Indicators,business_size,string,false,PP 7/2021 tier or aggregate
+DS05,UMKM Economic Indicators,business_sector,string,true,Sector label
+DS05,UMKM Economic Indicators,province,string,true,Province
+DS05,UMKM Economic Indicators,district,string,true,District
+DS05,UMKM Economic Indicators,reporting_period,string,false,Reporting period
+DS05,UMKM Economic Indicators,indicator_value,number,true,Pure numeric value
+DS05,UMKM Economic Indicators,unit,string,false,Unit of measurement
+DS05,UMKM Economic Indicators,population,string,false,Target population definition
+DS05,UMKM Economic Indicators,denominator,string,false,Denominator definition
+DS05,UMKM Economic Indicators,source,string,false,Official source owner/URL
+DS05,UMKM Economic Indicators,methodology,string,false,Statistical methodology
+DS05,UMKM Economic Indicators,validation_status,string,false,verified/provisional/synthetic/rejected
+DS06,Legal Information Access,access_id,string,false,Unique legal info resource ID
+DS06,Legal Information Access,information_type,string,false,Type of legal information or service
+DS06,Legal Information Access,provider,string,false,Institutional provider
+DS06,Legal Information Access,geographic_coverage,string,false,Geographic reach
+DS06,Legal Information Access,language,string,false,Language(s) supported
+DS06,Legal Information Access,digital_channel,string,false,Web/mobile/in-person channel
+DS06,Legal Information Access,accessibility_features,string,true,Plain-language/mobile-friendly/free access notes
+DS06,Legal Information Access,last_verified,date,false,ISO verification date
+DS06,Legal Information Access,source,string,false,Official URL
+DS06,Legal Information Access,validation_status,string,false,verified/provisional/synthetic/rejected
+DS07,UMKM Dispute Experience Survey,respondent_code,string,false,Opaque de-identified respondent code
+DS07,UMKM Dispute Experience Survey,business_size,string,false,PP 7/2021 tier
+DS07,UMKM Dispute Experience Survey,business_sector,string,false,Sector
+DS07,UMKM Dispute Experience Survey,province,string,false,Province
+DS07,UMKM Dispute Experience Survey,district,string,false,District
+DS07,UMKM Dispute Experience Survey,business_age_group,string,false,Age band
+DS07,UMKM Dispute Experience Survey,dispute_experience,string,false,yes/no/unknown
+DS07,UMKM Dispute Experience Survey,dispute_category,string,false,Taxonomy code(s)
+DS07,UMKM Dispute Experience Survey,resolution_channel,string,false,Channel used
+DS07,UMKM Dispute Experience Survey,estimated_cost_band,string,false,Banded cost
+DS07,UMKM Dispute Experience Survey,estimated_duration_band,string,false,Banded duration
+DS07,UMKM Dispute Experience Survey,business_impact,string,false,Reported operational impact
+DS07,UMKM Dispute Experience Survey,outcome_category,string,false,Outcome classification
+DS07,UMKM Dispute Experience Survey,consent_status,string,false,Consent status
+DS07,UMKM Dispute Experience Survey,survey_date,date,false,ISO survey date
+DS08,Data Quality Register,record_id,string,false,Unique QA record ID
+DS08,Data Quality Register,dataset_name,string,false,Target dataset name
+DS08,Data Quality Register,source,string,false,Source identifier
+DS08,Data Quality Register,missing_fields,string,true,Semicolon-separated missing fields
+DS08,Data Quality Register,duplicate_status,string,false,unique/duplicate_flagged/resolved
+DS08,Data Quality Register,validation_status,string,false,verified/provisional/synthetic/rejected
+DS08,Data Quality Register,review_date,date,false,ISO QA review date
+DS08,Data Quality Register,reviewer,string,false,Reviewer role or agent
+DS08,Data Quality Register,correction_notes,string,true,Audit notes
+DS09,Legal Information Register,legal_source_id,string,false,Unique legal source ID
+DS09,Legal Information Register,regulation_number,string,false,Regulation number
+DS09,Legal Information Register,regulation_year,integer,false,Year enacted
+DS09,Legal Information Register,title,string,false,Official regulation title
+DS09,Legal Information Register,legal_topic,string,false,Topic domain
+DS09,Legal Information Register,effective_date,date,true,ISO effective date
+DS09,Legal Information Register,current_status,string,false,active/amended/repealed
+DS09,Legal Information Register,official_source,string,false,JDIH BPK/Kemenkumham/MA
+DS09,Legal Information Register,source_url,uri,false,Verified official URL
+DS09,Legal Information Register,verification_status,string,false,verified/provisional/rejected
+DS10,Policy Recommendations,recommendation_id,string,false,Unique policy recommendation ID
+DS10,Policy Recommendations,research_question,string,false,Linked RQ01..RQ14
+DS10,Policy Recommendations,evidence_base,string,false,Linked validated indicators/datasets
+DS10,Policy Recommendations,identified_barrier,string,false,Identified access barrier
+DS10,Policy Recommendations,proposed_intervention,string,false,Non-regulatory or regulatory intervention
+DS10,Policy Recommendations,responsible_policy_area,string,false,Responsible ministry/agency/court
+DS10,Policy Recommendations,expected_outcome,string,false,Measurable expected outcome
+DS10,Policy Recommendations,evaluation_method,string,false,How outcome will be evaluated
+DS10,Policy Recommendations,limitations,string,false,Known risks and limitations
+DS10,Policy Recommendations,review_status,string,false,draft/reviewed/approved

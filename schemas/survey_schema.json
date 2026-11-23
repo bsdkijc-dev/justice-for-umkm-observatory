@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DS07 - UMKM Dispute Experience Survey",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "respondent_code", "business_size", "business_sector",
+    "province", "district", "business_age_group",
+    "dispute_experience", "dispute_category", "resolution_channel",
+    "estimated_cost_band", "estimated_duration_band",
+    "business_impact", "outcome_category", "consent_status",
+    "survey_date"
+  ],
+  "properties": {
+    "respondent_code": {"type": "string", "pattern": "^RESP-[A-Z0-9-]+$"},
+    "business_size": {"type": "string", "enum": ["micro", "small", "medium", "unknown"]},
+    "business_sector": {"type": "string"},
+    "province": {"type": "string"},
+    "district": {"type": "string"},
+    "business_age_group": {"type": "string", "enum": ["<1_year", "1_to_3_years", "3_to_5_years", "5_to_10_years", ">10_years", "unknown"]},
+    "dispute_experience": {"type": "string", "enum": ["yes", "no", "unknown"]},
+    "dispute_category": {"type": "string"},
+    "resolution_channel": {"type": "string", "enum": ["none", "negotiation", "mediation", "administrative", "arbitration", "small_claims_court", "general_court", "abandoned_unresolved", "other", "unknown"]},
+    "estimated_cost_band": {"type": "string", "enum": ["0", "<1M_IDR", "1M_to_5M_IDR", "5M_to_25M_IDR", "25M_to_100M_IDR", ">100M_IDR", "unknown", "not_applicable"]},
+    "estimated_duration_band": {"type": "string", "enum": ["<1_month", "1_to_3_months", "3_to_6_months", "6_to_12_months", ">12_months", "ongoing", "unknown", "not_applicable"]},
+    "business_impact": {"type": "string"},
+    "outcome_category": {"type": "string"},
+    "consent_status": {"type": "string", "enum": ["consented_public_aggregate", "consented_research_only", "withdrawn"]},
+    "survey_date": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"}
+  }
+}

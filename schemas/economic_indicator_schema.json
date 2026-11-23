@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DS05 - UMKM Economic Indicators",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "economic_indicator_id", "indicator_name", "business_size",
+    "business_sector", "province", "district", "reporting_period",
+    "indicator_value", "unit", "population", "denominator",
+    "source", "methodology", "validation_status"
+  ],
+  "properties": {
+    "economic_indicator_id": {"type": "string", "minLength": 1},
+    "indicator_name": {"type": "string", "minLength": 1},
+    "business_size": {"type": "string", "enum": ["micro", "small", "medium", "micro_small", "all_umkm", "unknown"]},
+    "business_sector": {"type": "string"},
+    "province": {"type": "string"},
+    "district": {"type": "string"},
+    "reporting_period": {"type": "string", "minLength": 4},
+    "indicator_value": {"type": ["number", "null"]},
+    "unit": {"type": "string", "minLength": 1},
+    "population": {"type": "string"},
+    "denominator": {"type": "string"},
+    "source": {"type": "string", "minLength": 1},
+    "methodology": {"type": "string"},
+    "validation_status": {"type": "string", "enum": ["verified", "provisional", "synthetic", "rejected"]}
+  }
+}

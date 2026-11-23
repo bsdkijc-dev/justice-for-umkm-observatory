@@ -1,0 +1,2 @@
+record_id,dataset_name,source,missing_fields,duplicate_status,validation_status,review_date,reviewer,correction_notes
+SYNTH-QA-001,ds01_umkm_legal_disputes.csv,synthetic_test_generator,,unique,synthetic,2026-11-23,DATA VALIDATION AGENT,Synthetic validation baseline

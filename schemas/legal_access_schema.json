@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DS06 - Legal Information Access",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "access_id", "information_type", "provider",
+    "geographic_coverage", "language", "digital_channel",
+    "accessibility_features", "last_verified", "source",
+    "validation_status"
+  ],
+  "properties": {
+    "access_id": {"type": "string", "minLength": 1},
+    "information_type": {"type": "string", "minLength": 1},
+    "provider": {"type": "string", "minLength": 1},
+    "geographic_coverage": {"type": "string"},
+    "language": {"type": "string"},
+    "digital_channel": {"type": "string"},
+    "accessibility_features": {"type": "string"},
+    "last_verified": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+    "source": {"type": "string", "minLength": 1},
+    "validation_status": {"type": "string", "enum": ["verified", "provisional", "synthetic", "rejected"]}
+  }
+}

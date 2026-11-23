@@ -1,0 +1,11 @@
+source_id,analytical_dimension,target_datasets,collection_method,robots_checked,automated_collection_permitted,last_verified,notes
+SRC-001,Dispute Resolution & Legal Certainty,DS01;DS04,manual_or_polite_metadata_only,pending,conditional,2026-11-23,Verify category URLs and rate limits before any collection; pause on HTTP errors
+SRC-002,Business Resilience & Growth,DS05,official_download_or_api,not_applicable,yes_via_api,2026-11-23,Prefer official BPS bulk CSV/Excel downloads and Web API
+SRC-003,Business Resilience & Growth,DS05,official_download,not_applicable,manual_download,2026-11-23,Download published statistical compilations directly from umkm.go.id/publikasi
+SRC-004,Financial & Credit Disputes,DS05,official_download,not_applicable,manual_download,2026-11-23,Extract UMKM credit and NPL tables from official BI statistical bulletins
+SRC-005,Financial & Credit Disputes,DS05,official_download,not_applicable,manual_download,2026-11-23,Extract multifinance and fintech lending statistics from OJK bulletins
+SRC-006,Legal Accessibility,DS06;DS09,manual_verification,not_applicable,no,2026-11-23,Use only for licensing rules and public guidance verification
+SRC-007,Population Definition,DS09,official_download,not_applicable,manual_download,2026-11-23,Authoritative statutory threshold source (PP 7/2021 Pasal 35)
+SRC-008,Dispute Resolution,DS09,official_download,not_applicable,manual_download,2026-11-23,Authoritative small-claims court procedure (Gugatan Sederhana max IDR 500M)
+SRC-009,Dispute Resolution,DS09,official_download,not_applicable,manual_download,2026-11-23,Authoritative court-annexed mediation procedure
+SRC-010,Legal Accessibility,DS02;DS06,manual_verification,not_applicable,conditional,2026-11-23,Verify OBH coverage by province/district from BPHN annual reports
