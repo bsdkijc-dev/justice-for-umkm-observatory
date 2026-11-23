@@ -1,5 +1,5 @@
-#!/usr/bin/env bash
-set -euo pipefail
+#!/bin/sh
+set -eu
 
 echo "=== Justice for UMKM Observatory — Phase 2 Empirical & Pages Prep ==="
 
@@ -14,7 +14,7 @@ cp -f kaggle/dataset-metadata.json kaggle/stage_synthetic/
 echo "[OK] Staged Kaggle synthetic pilot package in kaggle/stage_synthetic/"
 
 # 2. Ingest any official DS05 CSV placed in data/raw/ds05_official_input.csv
-if [[ -f "data/raw/ds05_official_input.csv" ]]; then
+if [ -f "data/raw/ds05_official_input.csv" ]; then
   PYTHONPATH=. python3 processing/ingest_ds05_official.py \
     --input data/raw/ds05_official_input.csv \
     --output data/processed/ds05_umkm_economic_indicators.csv \
