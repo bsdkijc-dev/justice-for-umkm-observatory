@@ -18,8 +18,8 @@ PROHIBITED_COLUMNS = {
 
 PII_PATTERNS = {
     "email": re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}"),
-    "indonesian_phone": re.compile(r"\b(?:\+62|62|08)\d{8,12}\b"),
-    "nik_16_digit": re.compile(r"\b\d{16}\b"),
+    "indonesian_phone": re.compile(r"(?<!\.)\b(?:\+62|62|08)\d{8,12}\b"),
+    "nik_16_digit": re.compile(r"(?<!\.)\b\d{16}\b(?!\.)"),
 }
 
 
