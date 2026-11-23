@@ -30,7 +30,8 @@ def scan_dataframe_for_pii(df: pd.DataFrame, filename: str) -> List[str]:
     for bad in PROHIBITED_COLUMNS & set(lower_cols.keys()):
         findings.append(f"{filename}: prohibited column '{lower_cols[bad]}'")
 
-    for col in df.select_dtypes(include=["object"]).columns:
+    text_cols = [c for c in df.columns if pd.api.types.is_string_dtype(df[c]) or df[c].dtype == object]
+    for col in text_cols:
         series = df[col].dropna().astype(str)
         for label, pattern in PII_PATTERNS.items():
             if series.str.contains(pattern, regex=True).any():
