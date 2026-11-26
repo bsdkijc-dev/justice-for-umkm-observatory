@@ -1,4 +1,18 @@
-# Justice for UMKM Observatory (v1.0)
+<div align="center">
+
+<img src="assets/logo.svg" alt="Justice for UMKM Observatory Logo" width="140">
+
+# Justice for UMKM Observatory
+
+### Evidence-based legal and economic research on how access to justice shapes Indonesian micro and small enterprises.
+
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat)](LICENSE) ![Stack](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat&logo=python&logoColor=white) [![CI](https://github.com/bsdkijc-dev/justice-for-umkm-observatory/actions/workflows/test.yml/badge.svg)](https://github.com/bsdkijc-dev/justice-for-umkm-observatory/actions/workflows/test.yml)
+
+[Documentation](research/) · [Repository](https://github.com/bsdkijc-dev/justice-for-umkm-observatory)
+
+</div>
+
+---
 
 > **Justice for Small Business. Prosperity for Everyone.**
 
@@ -55,3 +69,13 @@ python3 processing/privacy_review.py --data-dir data/synthetic
 ## Complementary Scope
 
 Employment disputes involving UMKM are tracked as an interconnected risk category (Category 05), while detailed Industrial Relations Court (PHI) labour adjudication analysis is cross-referenced to the **Indonesia Labour Justice Observatory (ILJO)** to avoid duplication.
+
+---
+
+<div align="center">
+
+**Justice for UMKM Observatory**
+
+[github.com/bsdkijc-dev/justice-for-umkm-observatory](https://github.com/bsdkijc-dev/justice-for-umkm-observatory)
+
+</div>
